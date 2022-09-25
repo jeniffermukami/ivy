@@ -6,6 +6,29 @@ round
 .. autofunction:: ivy.array.array_methods.round
 
 .. autofunction:: ivy.container.container_methods.round
+
+.. autofunction:: ivy.container.container_methods.static_round
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -35,4 +58,5 @@ round
    round/round_functional.rst
    round/round_array.rst
    round/round_container.rst
+   round/static_round_container.rst
 

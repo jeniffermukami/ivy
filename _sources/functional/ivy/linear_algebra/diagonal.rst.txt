@@ -4,6 +4,31 @@ diagonal
 .. autofunction:: ivy.functional.ivy.linear_algebra.diagonal
 
 .. autofunction:: ivy.array.array_methods.diagonal
+
+.. autofunction:: ivy.container.container_methods.diagonal
+
+.. autofunction:: ivy.container.container_methods.static_diagonal
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -32,4 +57,6 @@ diagonal
 
    diagonal/diagonal_functional.rst
    diagonal/diagonal_array.rst
+   diagonal/diagonal_container.rst
+   diagonal/static_diagonal_container.rst
 

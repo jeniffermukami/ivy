@@ -4,6 +4,31 @@ tensordot
 .. autofunction:: ivy.functional.ivy.linear_algebra.tensordot
 
 .. autofunction:: ivy.array.array_methods.tensordot
+
+.. autofunction:: ivy.container.container_methods.tensordot
+
+.. autofunction:: ivy.container.container_methods.static_tensordot
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -31,5 +56,7 @@ tensordot
    :caption: tensordot
 
    tensordot/tensordot_functional.rst
+   tensordot/static_tensordot_container.rst
    tensordot/tensordot_array.rst
+   tensordot/tensordot_container.rst
 

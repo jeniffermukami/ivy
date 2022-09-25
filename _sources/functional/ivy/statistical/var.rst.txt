@@ -6,6 +6,29 @@ var
 .. autofunction:: ivy.array.array_methods.var
 
 .. autofunction:: ivy.container.container_methods.var
+
+.. autofunction:: ivy.container.container_methods.static_var
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -33,6 +56,7 @@ var
    :caption: var
 
    var/var_functional.rst
+   var/static_var_container.rst
    var/var_array.rst
    var/var_container.rst
 

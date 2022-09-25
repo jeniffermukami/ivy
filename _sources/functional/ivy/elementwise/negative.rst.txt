@@ -6,6 +6,29 @@ negative
 .. autofunction:: ivy.array.array_methods.negative
 
 .. autofunction:: ivy.container.container_methods.negative
+
+.. autofunction:: ivy.container.container_methods.static_negative
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -35,4 +58,5 @@ negative
    negative/negative_functional.rst
    negative/negative_array.rst
    negative/negative_container.rst
+   negative/static_negative_container.rst
 

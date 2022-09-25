@@ -5,7 +5,30 @@ logical_not
 
 .. autofunction:: ivy.array.array_methods.logical_not
 
+.. autofunction:: ivy.container.container_methods.static_logical_not
+
 .. autofunction:: ivy.container.container_methods.logical_not
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -35,4 +58,5 @@ logical_not
    logical_not/logical_not_functional.rst
    logical_not/logical_not_array.rst
    logical_not/logical_not_container.rst
+   logical_not/static_logical_not_container.rst
 

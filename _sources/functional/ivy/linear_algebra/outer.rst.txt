@@ -4,6 +4,31 @@ outer
 .. autofunction:: ivy.functional.ivy.linear_algebra.outer
 
 .. autofunction:: ivy.array.array_methods.outer
+
+.. autofunction:: ivy.container.container_methods.outer
+
+.. autofunction:: ivy.container.container_methods.static_outer
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -32,4 +57,6 @@ outer
 
    outer/outer_functional.rst
    outer/outer_array.rst
+   outer/outer_container.rst
+   outer/static_outer_container.rst
 

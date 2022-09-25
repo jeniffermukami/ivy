@@ -4,6 +4,31 @@ det
 .. autofunction:: ivy.functional.ivy.linear_algebra.det
 
 .. autofunction:: ivy.array.array_methods.det
+
+.. autofunction:: ivy.container.container_methods.static_det
+
+.. autofunction:: ivy.container.container_methods.det
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -32,4 +57,6 @@ det
 
    det/det_functional.rst
    det/det_array.rst
+   det/det_container.rst
+   det/static_det_container.rst
 

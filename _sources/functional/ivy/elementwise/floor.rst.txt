@@ -5,7 +5,30 @@ floor
 
 .. autofunction:: ivy.array.array_methods.floor
 
+.. autofunction:: ivy.container.container_methods.static_floor
+
 .. autofunction:: ivy.container.container_methods.floor
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -35,4 +58,5 @@ floor
    floor/floor_functional.rst
    floor/floor_array.rst
    floor/floor_container.rst
+   floor/static_floor_container.rst
 

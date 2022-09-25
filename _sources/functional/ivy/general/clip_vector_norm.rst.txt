@@ -3,7 +3,32 @@ clip_vector_norm
 
 .. autofunction:: ivy.functional.ivy.general.clip_vector_norm
 
+.. autofunction:: ivy.array.array_methods.clip_vector_norm
+
 .. autofunction:: ivy.container.container_methods.clip_vector_norm
+
+.. autofunction:: ivy.container.container_methods.static_clip_vector_norm
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -31,5 +56,7 @@ clip_vector_norm
    :caption: clip_vector_norm
 
    clip_vector_norm/clip_vector_norm_functional.rst
+   clip_vector_norm/clip_vector_norm_array.rst
    clip_vector_norm/clip_vector_norm_container.rst
+   clip_vector_norm/static_clip_vector_norm_container.rst
 

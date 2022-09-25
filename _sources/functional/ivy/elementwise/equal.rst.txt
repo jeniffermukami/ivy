@@ -5,7 +5,30 @@ equal
 
 .. autofunction:: ivy.array.array_methods.equal
 
+.. autofunction:: ivy.container.container_methods.static_equal
+
 .. autofunction:: ivy.container.container_methods.equal
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -35,4 +58,5 @@ equal
    equal/equal_functional.rst
    equal/equal_array.rst
    equal/equal_container.rst
+   equal/static_equal_container.rst
 

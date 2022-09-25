@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Overview: module code &mdash; Ivy 1.0 documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="icon" type="image/png" href="https://github.com/unifyai/unifyai.github.io/blob/master/img/externally_linked/ivy_logo_only.png?raw=true">
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
-
-      <link rel="icon" type="image/png" href="../logos/ivy_logo_only.png">  <!--[if lt IE 9]>
+  <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
@@ -46,6 +46,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../deep_dive.html">Deep Dive</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Functions</span></p>
 <ul>
@@ -56,6 +57,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../functional/ivy/data_type.html">Data type</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../functional/ivy/device.html">Device</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../functional/ivy/elementwise.html">Elementwise</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functional/ivy/extensions.html">Extensions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../functional/ivy/general.html">General</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../functional/ivy/gradients.html">Gradients</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../functional/ivy/layers.html">Layers</a></li>
@@ -72,10 +74,21 @@
 <li class="toctree-l1"><a class="reference internal" href="../functional/ivy/statistical.html">Statistical</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../functional/ivy/utility.html">Utility</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Classes</span></p>
+<p class="caption" role="heading"><span class="caption-text">Data Classes</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../classes/data_classes.html">Data classes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../classes/stateful.html">Framework classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data_classes/container.html">Container</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data_classes/array.html">Array</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Framework Classes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../stateful/initializers.html">Initializers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stateful/converters.html">Converters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stateful/optimizers.html">Optimizers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stateful/module.html">Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stateful/layers.html">Layers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stateful/norms.html">Norms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stateful/activations.html">Activations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stateful/sequential.html">Sequential</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Docs</span></p>
 <ul>
@@ -115,6 +128,7 @@
              
   <h1>All modules for which code is available</h1>
 <ul><li><a href="ivy/array/activations.html">ivy.array.activations</a></li>
+<li><a href="ivy/array/array.html">ivy.array.array</a></li>
 <li><a href="ivy/array/array_methods.html">ivy.array.array_methods</a></li>
 <li><a href="ivy/array/conversions.html">ivy.array.conversions</a></li>
 <li><a href="ivy/array/creation.html">ivy.array.creation</a></li>
@@ -136,11 +150,13 @@
 <li><a href="ivy/array/statistical.html">ivy.array.statistical</a></li>
 <li><a href="ivy/array/utility.html">ivy.array.utility</a></li>
 <li><a href="ivy/array/wrapping.html">ivy.array.wrapping</a></li>
+<li><a href="ivy/assertions.html">ivy.assertions</a></li>
 <li><a href="ivy/backend_handler.html">ivy.backend_handler</a></li>
 <li><a href="ivy/container/activations.html">ivy.container.activations</a></li>
 <li><a href="ivy/container/base.html">ivy.container.base</a></li>
 <li><a href="ivy/container/container.html">ivy.container.container</a></li>
 <li><a href="ivy/container/container_methods.html">ivy.container.container_methods</a></li>
+<li><a href="ivy/container/conversions.html">ivy.container.conversions</a></li>
 <li><a href="ivy/container/creation.html">ivy.container.creation</a></li>
 <li><a href="ivy/container/data_type.html">ivy.container.data_type</a></li>
 <li><a href="ivy/container/device.html">ivy.container.device</a></li>
@@ -167,6 +183,7 @@
 <li><a href="ivy/functional/ivy/data_type.html">ivy.functional.ivy.data_type</a></li>
 <li><a href="ivy/functional/ivy/device.html">ivy.functional.ivy.device</a></li>
 <li><a href="ivy/functional/ivy/elementwise.html">ivy.functional.ivy.elementwise</a></li>
+<li><a href="ivy/functional/ivy/extensions.html">ivy.functional.ivy.extensions</a></li>
 <li><a href="ivy/functional/ivy/general.html">ivy.functional.ivy.general</a></li>
 <li><a href="ivy/functional/ivy/gradients.html">ivy.functional.ivy.gradients</a></li>
 <li><a href="ivy/functional/ivy/layers.html">ivy.functional.ivy.layers</a></li>
@@ -201,7 +218,7 @@
   <hr/>
 
   <div role="contentinfo">
-    <p>&#169; Copyright 2020, Ivy Team.</p>
+    <p>&#169; Copyright 2020-2022, Ivy Team.</p>
   </div>
 
   Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a

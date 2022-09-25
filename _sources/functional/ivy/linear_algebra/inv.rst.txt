@@ -4,6 +4,31 @@ inv
 .. autofunction:: ivy.functional.ivy.linear_algebra.inv
 
 .. autofunction:: ivy.array.array_methods.inv
+
+.. autofunction:: ivy.container.container_methods.static_inv
+
+.. autofunction:: ivy.container.container_methods.inv
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -32,4 +57,6 @@ inv
 
    inv/inv_functional.rst
    inv/inv_array.rst
+   inv/inv_container.rst
+   inv/static_inv_container.rst
 

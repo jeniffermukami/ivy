@@ -5,7 +5,30 @@ ceil
 
 .. autofunction:: ivy.array.array_methods.ceil
 
+.. autofunction:: ivy.container.container_methods.static_ceil
+
 .. autofunction:: ivy.container.container_methods.ceil
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -35,4 +58,5 @@ ceil
    ceil/ceil_functional.rst
    ceil/ceil_array.rst
    ceil/ceil_container.rst
+   ceil/static_ceil_container.rst
 

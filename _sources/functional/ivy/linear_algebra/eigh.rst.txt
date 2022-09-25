@@ -4,6 +4,29 @@ eigh
 .. autofunction:: ivy.functional.ivy.linear_algebra.eigh
 
 .. autofunction:: ivy.array.array_methods.eigh
+
+.. autofunction:: ivy.container.container_methods.eigh
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -32,4 +55,5 @@ eigh
 
    eigh/eigh_functional.rst
    eigh/eigh_array.rst
+   eigh/eigh_container.rst
 

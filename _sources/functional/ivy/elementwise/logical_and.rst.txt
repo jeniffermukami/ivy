@@ -5,7 +5,30 @@ logical_and
 
 .. autofunction:: ivy.array.array_methods.logical_and
 
+.. autofunction:: ivy.container.container_methods.static_logical_and
+
 .. autofunction:: ivy.container.container_methods.logical_and
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -35,4 +58,5 @@ logical_and
    logical_and/logical_and_functional.rst
    logical_and/logical_and_array.rst
    logical_and/logical_and_container.rst
+   logical_and/static_logical_and_container.rst
 

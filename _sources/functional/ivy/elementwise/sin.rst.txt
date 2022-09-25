@@ -6,6 +6,29 @@ sin
 .. autofunction:: ivy.array.array_methods.sin
 
 .. autofunction:: ivy.container.container_methods.sin
+
+.. autofunction:: ivy.container.container_methods.static_sin
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -35,4 +58,5 @@ sin
    sin/sin_functional.rst
    sin/sin_array.rst
    sin/sin_container.rst
+   sin/static_sin_container.rst
 

@@ -6,6 +6,29 @@ sqrt
 .. autofunction:: ivy.array.array_methods.sqrt
 
 .. autofunction:: ivy.container.container_methods.sqrt
+
+.. autofunction:: ivy.container.container_methods.static_sqrt
+
+.. list-table:: Device Support
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Device
+     - JAX
+     - NumPy
+     - TensorFlow
+     - PyTorch
+   * - CPU
+     - ✅
+     - ✅
+     - ✅
+     - ✅
+   * - GPU
+     - ❌
+     - ❌
+     - ❌
+     - ❌
+
 |
 | **Supported Frameworks:**
 
@@ -35,4 +58,5 @@ sqrt
    sqrt/sqrt_functional.rst
    sqrt/sqrt_array.rst
    sqrt/sqrt_container.rst
+   sqrt/static_sqrt_container.rst
 
